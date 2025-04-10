@@ -48,13 +48,13 @@ bash
 2. the frontend will automatically connect to the backend at http://localhost:5000.
 
 API Endpoints --
-->GET /api/registrations-get all registrations.
-->POST /api/registrations-create a new registration.
-->PUT /api/registrations/:id-update a registration.
-->DELETE /api/registrations/:id-delete a registration.
+1->GET /api/registrations-get all registrations.
+2->POST /api/registrations-create a new registration.
+3->PUT /api/registrations/:id-update a registration.
+4->DELETE /api/registrations/:id-delete a registration.
 
 USAGE:
-->click "Add new user" to create a new registration
-->fill in the form with user details
-->click "save" to submit
-->use the edit/delete buttons in the table to modify
+1.->click "Add new user" to create a new registration
+2.->fill in the form with user details
+3.->click "save" to submit
+4.->use the edit/delete buttons in the table to modify
